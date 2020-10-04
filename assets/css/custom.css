@@ -1,0 +1,43 @@
+.avatar {
+    background: transparent;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.socials {
+    margin-top: 1rem;
+}
+
+.git, .linkedin, .instagram, .port {
+    width: 2rem;
+}
+
+ul.social-network {
+    display: block;
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+    padding: 0;
+}
+
+ul.social-network li {
+	display: inline;
+    margin: 0 5px;
+    color: #18bc9c;;
+}
+
+.contacts {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 575px) {
+    .contacts {
+        text-align: center;
+    }
+
+    .email {
+        margin-top: 1rem;
+    }
+  }
